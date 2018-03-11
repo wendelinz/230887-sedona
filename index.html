@@ -92,14 +92,38 @@
       <p><b>Заинтересовались?</b></p>
       <p>Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в Седоне</p>
     
-      <section class="filters">
+      <section class="search">
         <h2>Поиск гостиницы в Седоне</h2>
-        <!-- Здесь будет форма -->
+        <form class="search-form" action="https://echo.htmlacademy.ru" method="post">
+          <p class="search-item">
+            <label for="search-date-from">Дата заезда:</label>
+            <input id="search-date-from" type="text" value="" placeholder="24 апреля 2017">
+          </p>
+          <p class="search-item">
+            <label for="search-date-until">Дата выезда:</label>
+            <input id="search-date-until" type="text" value="" placeholder="4 июля 2017">
+          </p>
+          <p class="search-item">
+            <label for="search-count-adults">Взрослые:</label>
+            <span>-</span>
+            <input id="search-count-adults" type="number" name="count-adults" value="" placeholder="2">
+            <span>+</span>
+          </p>
+          <p class="search-item">
+            <label for="search-count-children">Дети:</label>
+            <span>-</span>
+            <input id="search-count-children" type="number" name="count-children" value="" placeholder="0">
+            <span>+</span>
+          </p>
+          <button class="button" type="submit">Найти</button>
+        </form>
       </section>
 
       <section class="map">
+        <h2 class="visually-hidden">Как до нас добраться</h2>
+        <p>
         <img src="img/map.jpg" width="1718" height="748" alt="Карта">
-      <!-- Здесь будет карта -->
+        </p>
       </section>
 
     </main>
