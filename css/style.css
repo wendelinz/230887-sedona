@@ -168,4 +168,28 @@ a {
     font-size: 16px;
 }
 
+.catalog h2 {
+    font-size: 21px;
+    font-weight: bold;
+}
+
+.catalog-item {
+    list-style: none;
+}
+
+.catalog-item-hotel {
+    text-decoration: none;
+    color: #000000;
+    font-size: 21px;
+    line-height: 26px;
+}
+
+.catalog-item-hotel:hover,
+.catalog-item-hotel:focus {
+    color: #81b3d2;
+}
+
+.catalog-item-hotel:active {
+    opacity: 0.3;
+}
 
