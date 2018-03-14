@@ -16,6 +16,39 @@ a {
     text-decoration: none;
 }
 
+.button {
+    font: inherit;
+    text-align: middle;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+.button-blue {
+    background-color:#81b3d2;
+}
+
+.button-blue:hover,
+.button-blue:focus {
+    background-color: #669ec0;
+}
+
+.button-blue:active {
+    background-color: #5496bd;
+}
+
+.button-brown {
+    background-color: #766357;
+}
+
+.button-brown:hover,
+.button-brown:focus {
+    background-color: #604e43;
+}
+
+.button-brown:active {
+    background-color: #503e33;
+}
+
 .main-navigation {
     font-weight: bold;
 }
@@ -68,4 +101,15 @@ a {
 
 .sub-features-item h4 {
     font-size: 21px;
+}
+
+.question {
+    text-align: center;
+}
+
+.question b {
+    font-size: 30px;
+    line-height: 36px;
+    font-weight: bold;
+}
 }
