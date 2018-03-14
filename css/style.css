@@ -21,6 +21,7 @@ a {
     text-align: middle;
     text-transform: uppercase;
     color: #ffffff;
+    font-weight: bold;
 }
 
 .button-blue {
@@ -112,4 +113,17 @@ a {
     line-height: 36px;
     font-weight: bold;
 }
+
+.search-form {
+    font-weight: bold;
+}
+
+.search-form input {
+    font: inherit;
+    background-color: #f2f2f2;
+    text-transform: uppercase;
+}
+
+.footer-visit {
+    font-weight: bold;
 }
