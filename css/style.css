@@ -136,3 +136,13 @@ a {
 .footer-visit {
     font-weight: bold;
 }
+
+.filters {
+    background-color: #81b3d2;
+    color: #ffffff;
+    background-image: url("img/filter.jpg");
+    background-repeat: no-repeat;
+}
+
+
+
