@@ -140,9 +140,32 @@ a {
 .filters {
     background-color: #81b3d2;
     color: #ffffff;
-    background-image: url("img/filter.jpg");
+    background-image: url("../img/filter.jpg");
     background-repeat: no-repeat;
+    background-size: 100%;
 }
 
+.filter-button {
+    background: transparent;
+}
+
+.filters fieldset {
+    border: none;
+}
+
+.filters legend {
+    font-size: 16px;
+    line-height: 21px;
+    font-weight: bold;
+}
+
+.filters ul {
+    list-style: none;
+    line-height: 21px;
+}
+
+.filter-price {
+    font-size: 16px;
+}
 
 
