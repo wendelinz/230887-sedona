@@ -36,3 +36,36 @@ a {
 .site-navigation a:focus {
     color: #81b3d2;
 }
+
+.slogan {
+    text-align: center;
+}
+
+.slogan b {
+    font-size: 21px;
+    font-weight: bold;
+}
+
+.features-item-white {
+    text-align: center;
+    background-color: #81b3d2;
+    color: #ffffff
+}
+
+.features-item-white h3,
+.features-item-blue h3 {
+    font-size: 21px;
+}
+
+.features-item-blue {
+    text-align: center;
+    background-color: #eeeeee;
+}
+
+.sub-features-item {
+    text-align: center;
+}
+
+.sub-features-item h4 {
+    font-size: 21px;
+}
