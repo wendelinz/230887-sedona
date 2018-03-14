@@ -124,6 +124,15 @@ a {
     text-transform: uppercase;
 }
 
+.search-form input:hover {
+    background-color: #ebebeb;
+}
+
+.search-form input:focus {
+    background-color: #ffffff;
+    outline-color: #f2f2f2;
+}
+
 .footer-visit {
     font-weight: bold;
 }
