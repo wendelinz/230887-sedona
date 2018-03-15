@@ -227,3 +227,8 @@ a {
     opacity: 1;
     text-decoration: none;
 }
+
+.raiting {
+    color: #666666;
+    background-color: #f2f2f2;
+}
