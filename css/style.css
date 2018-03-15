@@ -193,3 +193,37 @@ a {
     opacity: 0.3;
 }
 
+.count-hotels {
+    font-size: 21px;
+    line-height: 26px;
+    font-weight: bold;
+}
+
+.sorting {
+    font-size:12px;
+    line-height: 18px;
+}
+
+.sorting-hotel a {
+    font-size:12px;
+    line-height: 18px;
+    color: #000000;
+    opacity: 0.3;
+    text-decoration: underline;
+}
+
+.sorting-hotel a:hover {
+    color:#81b3d2;
+    opacity: 1;
+}
+.sorting-hotel a:focus {
+    color:#81b3d2;
+    opacity: 1;
+    text-decoration: none;
+}
+
+.sorting-hotel a:active {
+    color: #000000;
+    opacity: 1;
+    text-decoration: none;
+}
