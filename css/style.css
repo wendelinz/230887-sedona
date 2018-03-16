@@ -50,6 +50,11 @@ a {
     background-color: #503e33;
 }
 
+.button-form {
+    font-size: 21px;
+    line-height: 26px;
+}
+
 .main-navigation {
     font-weight: bold;
 }
@@ -134,6 +139,8 @@ a {
 }
 
 .footer-visit {
+    font-size: 21px;
+    line-height: 26px;
     font-weight: bold;
 }
 
