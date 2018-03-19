@@ -16,6 +16,24 @@ a {
     text-decoration: none;
 }
 
+.visually-hidden:not(:focus):not(:active),
+input[type="checkbox"].visually-hidden,
+input[type="radio"].visually-hidden {
+  position: absolute;
+
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
 .button {
     font: inherit;
     text-transform: uppercase;
@@ -238,3 +256,33 @@ a {
     color: #666666;
     background-color: #f2f2f2;
 }
+
+/* сетка */
+
+.main-header {
+    display: flex;
+    justify-content: center;
+    margin-bottom: -40px;   
+}
+
+.main-header-logo {
+    position: absolute;
+    margin: auto;
+}
+
+.site-navigation {
+    display: flex;
+    justify-content: space-around;
+}
+
+.main-navigation {
+    padding-left: 60px;
+}
+
+
+.site-navigation li {
+    width: 200px;
+    min-height: 57px;
+    padding: 10px;
+}
+
