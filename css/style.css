@@ -334,3 +334,7 @@ input[type="radio"].visually-hidden {
     margin:0;
     width: 400px;
 }
+
+.filter {
+    display: flex;
+}
