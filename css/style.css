@@ -1,5 +1,9 @@
+html {
+    background-color: #f2f2f2;
+}
+
 body {
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
 
     font-family: "PT Sans", Arial, sans-serif;
@@ -8,6 +12,8 @@ body {
     font-weight: 400;
     color: #000000;
     text-transform: uppercase;
+    width: 1200px;
+    box-shadow: 0 5px 15px rgba(0, 1, 1, 0.2);
 
     background-color: #ffffff;  
 }
@@ -260,29 +266,43 @@ input[type="radio"].visually-hidden {
 /* сетка */
 
 .main-header {
-    display: flex;
-    justify-content: center;
-    margin-bottom: -40px;   
+      
 }
 
 .main-header-logo {
-    position: absolute;
-    margin: auto;
+    position: relative;
+    z-index: 2;
+    display: block;
+    margin: 0 auto;
+    width: 138px;
+    margin-bottom: -80px;
 }
 
 .site-navigation {
+    padding: 0;
     display: flex;
-    justify-content: space-around;
 }
 
 .main-navigation {
-    padding-left: 60px;
+    padding: 0 6%;
 }
 
 .site-navigation li {
-    width: 200px;
-    min-height: 57px;
-    padding: 10px;
+    width: 20%;
+    padding: 3px 0;
+}
+
+.site-navigation li:nth-child(2) {
+    margin-left: 28px;
+}
+
+.site-navigation li:nth-child(3) {
+    margin-left: auto;
+    margin-right: 34px;
+    text-align: right;
+}
+.site-navigation li:nth-child(4) {
+    text-align: right;
 }
 
 .features-list {
