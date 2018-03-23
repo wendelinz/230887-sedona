@@ -110,18 +110,19 @@ input[type="radio"].visually-hidden {
     margin-bottom: 30px;
 }
 
-.features-item-white {
+.features-item-blue {
     text-align: center;
     background-color: #81b3d2;
     color: #ffffff
 }
 
-.features-item-white h3,
-.features-item-blue h3 {
+.features-item-blue h3,
+.features-item-white h3 {
     font-size: 21px;
+    line-height: 26px;
 }
 
-.features-item-blue {
+.features-item-white {
     text-align: center;
     background-color: #eeeeee;
 }
@@ -321,7 +322,7 @@ input[type="radio"].visually-hidden {
     display: flex;
     margin: 0;
     padding: 0;
-    min-height: 257px;
+    height: 256px;
 }
 
 .features-list p {
@@ -332,6 +333,15 @@ input[type="radio"].visually-hidden {
 
 .feature-item {
     width: 400px;
+}
+
+.features-item-blue h3 {
+    line-height: 21px;
+    width: 130px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 25px;
+    margin-bottom: 27px;
 }
 
 .sub-features-list {
@@ -378,9 +388,14 @@ input[type="radio"].visually-hidden {
     margin: 0;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 50px;
 }
 
 .slogan:nth-child(2) {
     letter-spacing: 0.1px;
 }
 
+.features-item-blue p {
+    padding-right: 50px;
+    padding-left: 50px;
+}
