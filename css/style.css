@@ -302,8 +302,10 @@ input[type="radio"].visually-hidden {
 }
 
 .main-picture {
-    background-image: url(../img/main-sedona.jpg);
-    background-position: 0 -58px;
+    height: 507px;
+    background-image: url(../img/mask.png), url(../img/main-sedona.jpg);
+    background-repeat: no-repeat, no-repeat;
+    background-position: bottom center, 0 -58px;
 }
 
 .main-picture img {
