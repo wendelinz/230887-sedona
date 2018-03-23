@@ -103,9 +103,11 @@ input[type="radio"].visually-hidden {
     text-align: center;
 }
 
-.slogan b {
+.slogan-bold {
     font-size: 21px;
+    line-height: 26px;
     font-weight: bold;
+    margin-bottom: 30px;
 }
 
 .features-item-white {
@@ -306,6 +308,7 @@ input[type="radio"].visually-hidden {
     background-image: url(../img/mask.png), url(../img/main-sedona.jpg);
     background-repeat: no-repeat, no-repeat;
     background-position: bottom center, 0 -58px;
+    margin-bottom: 58px;
 }
 
 .main-picture img {
@@ -367,3 +370,17 @@ input[type="radio"].visually-hidden {
 .filter {
     display: flex;
 }
+
+.slogan {
+    display: block;
+    width: 550px;
+    padding: 0;
+    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.slogan:nth-child(2) {
+    letter-spacing: 0.1px;
+}
+
