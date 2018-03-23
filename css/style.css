@@ -265,10 +265,6 @@ input[type="radio"].visually-hidden {
 
 /* сетка */
 
-.main-header {
-      
-}
-
 .main-header-logo {
     position: relative;
     z-index: 2;
@@ -305,6 +301,17 @@ input[type="radio"].visually-hidden {
     text-align: right;
 }
 
+.main-picture {
+    background-image: url(../img/main-sedona.jpg);
+    background-position: 0 -58px;
+}
+
+.main-picture img {
+    margin-top: 75px;
+    margin-left: 370px;
+    margin-right: auto;
+
+}
 .features-list {
     display: flex;
     margin: 0;
