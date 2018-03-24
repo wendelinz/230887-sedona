@@ -407,6 +407,25 @@ input[type="radio"].visually-hidden {
 }
 
 .features-item-blue p {
+    line-height: 22px;
     padding-right: 50px;
-    padding-left: 50px;
+    padding-left: 43px;
+}
+
+.features-item-white {
+    width: 400px;
+    margin: 0;
+    padding: 0;
+}
+
+.features-item-white h3 {
+    line-height: 22px;
+    padding-left: 120px;
+    padding-right: 120px;
+    padding-top: 25px;
+}
+
+.features-item-white p {
+    padding-left: 60px;
+    padding-right: 60px;
 }
