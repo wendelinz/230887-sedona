@@ -390,6 +390,13 @@ input[type="radio"].visually-hidden {
 
 .filter {
     display: flex;
+    height: 218px;
+}
+
+.filter fieldset {
+    width: 255px;
+    padding: 0;
+    margin: 0;
 }
 
 .slogan {
