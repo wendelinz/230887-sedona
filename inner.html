@@ -62,13 +62,21 @@
                         </li>
                     </ul>
                 </fieldset>
-                <label class="filter-price">Стоимость в сутки(Р):</label>
-                    <div class="range-slider"> 
-                        <div class="slider-track"></div> 
-                        <div class="slider-handle min-slider-handle"></div> 
-                        <div class="slider-handle ma-slider-handle"></div> 
+                <div class="filter-range">
+                    <div class="filter-range-title">Стоимость в сутки (р):</div>
+                    <div class="price-controls">
+                      <label class="min-price">от <input type="text" name="min-price" value="0"></label>
+                      <label class="max-price">до <input type="text" name="max-price" value="3000"></label>
                     </div>
-                <button type="submit" class="filter-button button">Показать</button>
+                    <div class="range-controls">
+                      <div class="scale">
+                        <div class="bar"></div>
+                      </div>
+                      <div class="range-toggle range-toggle-min"></div>
+                      <div class="range-toggle range-toggle-max"></div>
+                    </div>
+                    <button class="btn-transparent" type="submit">Показать</button>
+                  </div>
             </form>
         </section>
 
