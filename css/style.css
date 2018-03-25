@@ -41,10 +41,13 @@ input[type="radio"].visually-hidden {
 }
 
 .button {
+    display: inline-block;
     font: inherit;
     text-transform: uppercase;
     color: #ffffff;
     font-weight: bold;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .button-blue {
@@ -606,4 +609,14 @@ input[type="radio"].visually-hidden {
       margin: 0;
       padding: 0;
   }
-      
+
+  .catalog-item {
+    display: flex;
+}
+
+.star-raiting {
+    margin: 0;
+    padding: 0;
+    margin-left: auto;
+    margin-right: 40px;
+}
