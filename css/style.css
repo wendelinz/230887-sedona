@@ -597,8 +597,8 @@ input[type="radio"].visually-hidden {
   .catalog {
       padding: 0;
       margin: 0;
-      padding-left: 52px;
-      padding-right: 52px;
+      padding-left: 35px;
+      padding-right: 35px;
 }
 
   .catalog-wrapper {
@@ -612,8 +612,14 @@ input[type="radio"].visually-hidden {
 
   .catalog-item {
     display: flex;
+    border-bottom: 2px solid #e5e5e5;
 }
 
+.catalog-item-photo {
+    margin-right: 30px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
 .star-raiting {
     margin: 0;
     padding: 0;
