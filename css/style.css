@@ -644,6 +644,17 @@ input[type="radio"].visually-hidden {
     margin-left: 73px;
 }
 
+.catalog-item-info h3 {
+    padding: 0;
+    margin: 0;
+    padding-top: 25px;
+}
+
+.catalog-button-wrapper {
+    padding: 0;
+    margin: 0;
+    margin-top: 15px;
+}
 
 .star-raiting {
     margin: 0;
