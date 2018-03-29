@@ -210,6 +210,10 @@ input[type="radio"].visually-hidden {
     font-weight: bold;
 }
 
+.catalog-list {
+    padding: 0;
+}
+
 .catalog-item {
     list-style: none;
 }
@@ -238,7 +242,6 @@ input[type="radio"].visually-hidden {
 
 .sorting {
     font-size:12px;
-    line-height: 18px;
 }
 
 .sorting-hotel a {
@@ -597,29 +600,51 @@ input[type="radio"].visually-hidden {
   .catalog {
       padding: 0;
       margin: 0;
-      padding-left: 35px;
-      padding-right: 35px;
 }
 
   .catalog-wrapper {
       display: flex;
+      margin-bottom: 28px;
   }
 
   .catalog-wrapper h2 {
       margin: 0;
       padding: 0;
+      padding-left: 72px;
+  }
+
+  .sorting {
+      margin: 0;
+      padding: 0;
+      padding-left: 52px;
+      padding-right: 30px;
+  }
+  .sorting-hotel a {
+      margin: 0;
+      padding: 0;
+      padding-left: 10px;
+      padding-right: 20px;
   }
 
   .catalog-item {
+    padding: 0;
+    margin: 0;
     display: flex;
-    border-bottom: 2px solid #e5e5e5;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.catalog-item:first-child {
+    border-top: 1px solid #e5e5e5;
 }
 
 .catalog-item-photo {
     margin-right: 30px;
-    margin-bottom: 30px;
+    margin-bottom: 22px;
     margin-top: 30px;
+    margin-left: 73px;
 }
+
+
 .star-raiting {
     margin: 0;
     padding: 0;
