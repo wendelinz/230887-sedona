@@ -662,3 +662,41 @@ input[type="radio"].visually-hidden {
     margin-left: auto;
     margin-right: 40px;
 }
+
+.filter-option {
+    margin: 0;
+    padding: 0;
+}
+
+.filter-option label {
+    position: relative;
+    display: block;
+    margin: 0;
+    padding: 0;
+    margin-left: 70px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.filter-input + label::before {
+    content:"";
+    position: absolute;
+    left: -35px;
+    top: 0;
+
+    width: 23px;
+    height: 23px;
+    background-image: url(../img/checkbox-off.svg);
+}
+
+.filter-input:checked + label::after {
+    content: "";
+
+    position: absolute;
+    top: 0px;
+    left: -35px;
+    width: 26px;
+    height: 23px;
+
+    background-image: url(../img/checkbox-on.svg);
+}
