@@ -250,6 +250,7 @@ input[type="radio"].visually-hidden {
     color: #000000;
     opacity: 0.3;
     text-decoration: underline;
+    text-decoration-style: dotted;
 }
 
 .sorting-hotel a:hover {
@@ -691,6 +692,10 @@ input[type="radio"].visually-hidden {
     height: 23px;
     background-image: url(../img/checkbox-off.svg);
 }
+
+.filter-input:checked + label::before { 
+    opacity: 0; 
+    }
 
 .filter-input:checked + label::after {
     content: "";
