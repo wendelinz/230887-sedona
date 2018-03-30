@@ -650,6 +650,11 @@ input[type="radio"].visually-hidden {
     padding-top: 25px;
 }
 
+.type-hotel {
+    display: inline-block;
+    width: 112px;
+}
+
 .catalog-button-wrapper {
     padding: 0;
     margin: 0;
