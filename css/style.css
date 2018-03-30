@@ -269,6 +269,9 @@ input[type="radio"].visually-hidden {
 }
 
 .raiting {
+    display: block;
+    width: 100px;
+    height: 30px;
     color: #666666;
     background-color: #f2f2f2;
 }
@@ -735,4 +738,33 @@ input[type="radio"].visually-hidden {
 .current path {
     opacity: 1;
     fill: #81b3d2;
+}
+
+.star-list {
+    display: flex;
+    justify-content: flex-end;
+    padding: 0;
+    padding-top: 30px;
+    width: 100px;
+    margin-right: 25px;  
+    margin-left: auto; 
+    margin-bottom: 40px;
+}
+
+.star-item {
+    list-style: none; 
+    width: 17px;
+    height: 17px;
+
+    background-image: url(../img/star.svg);
+    background-repeat: no-repeat;
+    padding: 0;
+    margin: 0;
+    padding-left: 4px;
+    padding-right: 4px;
+}
+
+.raiting {
+    padding-left: 12px;
+    padding-right: 12px;
 }
