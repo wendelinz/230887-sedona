@@ -393,11 +393,6 @@ input[type="radio"].visually-hidden {
     margin: 0;    
 }
 
-.footer-copyright {
-    margin:0;
-    width: 400px;
-}
-
 .filter {
     display: flex;
     height: 218px;
@@ -813,3 +808,19 @@ input[type="radio"].visually-hidden {
 .social-button:active path {
     fill: #88b6d1;
 }
+
+.footer-copyright {
+    width: 300px;
+    margin-top: 25px;
+    padding-left: 100px;
+}
+
+.footer-copyright a {
+    padding-left: 5px;
+}
+
+.footer-copyright span {
+    position: relative;
+    bottom: 17px;
+}
+
