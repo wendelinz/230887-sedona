@@ -463,17 +463,17 @@ input[type="radio"].visually-hidden {
   
     color: #ffffff;
     text-transform: uppercase;
-  }
+}
   
-  .filter-range-title {
+.filter-range-title {
     margin-bottom: 9px;
   
     font-weight: 600;
     font-size: 16px;
     line-height: 21px;
-  }
+}
   
-  .price-controls {
+.price-controls {
     position: relative;
     
     height: 36px;
@@ -483,9 +483,9 @@ input[type="radio"].visually-hidden {
   
     border: 2px solid #ffffff;
     border-radius: 2px;
-  }
+}
   
-  .price-controls::after {
+.price-controls::after {
     content: "";
     position: absolute;
     top: 50%;
@@ -496,9 +496,9 @@ input[type="radio"].visually-hidden {
   
     background: #ffffff;
     transform: translate(-50%, -50%);
-  }
+}
   
-  .price-controls label {
+.price-controls label {
     display: inline-block;
   
     font-size: 14px;
@@ -506,15 +506,15 @@ input[type="radio"].visually-hidden {
     vertical-align: top;
   
     cursor: pointer;
-  }
+}
   
-  .price-controls .min-price,
-  .price-controls .max-price {
+.price-controls .min-price,
+.price-controls .max-price {
     width: 90px;
     padding-left: 65px;
-  }
+}
   
-  .price-controls input {
+.price-controls input {
     width: 50px;
     margin: 0;
   
@@ -523,28 +523,28 @@ input[type="radio"].visually-hidden {
   
     background: none;
     border: none;
-  }
+}
   
-  .range-controls {
+.range-controls {
     position: relative;
   
     margin-bottom: 32px;
-  }
+}
   
-  .range-controls .scale {
+.range-controls .scale {
     height: 2px;
   
     background: rgba(255, 255, 255, 0.3);
-  }
+}
   
-  .range-controls .bar {
+.range-controls .bar {
     width: 80%;
     height: 2px;
   
     background: #ffffff;
-  }
+}
   
-  .range-toggle {
+.range-toggle {
     position: absolute;
     top: -9px;
   
@@ -556,21 +556,21 @@ input[type="radio"].visually-hidden {
     border-radius: 50%;
     box-shadow: 0 2px 1px 0 rgba(0, 1, 1, 0.2);
     cursor: pointer;
-  }
+}
   
-  .range-toggle:hover {
+.range-toggle:hover {
     background: #1c4f80;
-  }
+}
   
-  .range-toggle-min {
+.range-toggle-min {
     left: 0;
-  }
+}
   
-  .range-toggle-max {
+.range-toggle-max {
     left: 80%;
-  }
+}
   
-  .btn-transparent {
+.btn-transparent {
     display: block;
     margin: 0 auto;
     padding: 6px 35px;
@@ -584,48 +584,50 @@ input[type="radio"].visually-hidden {
     border: 2px solid #ffffff;
     border-radius: 2px;
     cursor: pointer;
-  }
+}
   
-  .btn-transparent:hover {
+.btn-transparent:hover {
     color: #000000;
   
     background: #ffffff;
-  }
-
-  .filter legend {
-      padding-top: 25px;
-      padding-left: 70px;
-  }
-  .catalog {
-      padding: 0;
-      margin: 0;
 }
 
-  .catalog-wrapper {
-      display: flex;
-      margin-bottom: 28px;
-  }
+.filter legend {
+    padding-top: 25px;
+    padding-left: 70px;
+}
 
-  .catalog-wrapper h2 {
-      margin: 0;
-      padding: 0;
-      padding-left: 72px;
-  }
+.catalog {
+    padding: 0;
+    margin: 0;
+}
 
-  .sorting {
-      margin: 0;
-      padding: 0;
-      padding-left: 52px;
-      padding-right: 30px;
-  }
-  .sorting-hotel a {
-      margin: 0;
-      padding: 0;
-      padding-left: 10px;
-      padding-right: 20px;
-  }
+.catalog-wrapper {
+    display: flex;
+    margin-bottom: 28px;
+}
 
-  .catalog-item {
+.catalog-wrapper h2 {
+    margin: 0;
+    padding: 0;
+    padding-left: 72px;
+}
+
+.sorting {
+    margin: 0;
+    padding: 0;
+    padding-left: 52px;
+    padding-right: 30px;
+}
+
+.sorting-hotel a {
+    margin: 0;
+    padding: 0;
+    padding-left: 10px;
+    padding-right: 20px;
+}
+
+.catalog-item {
     padding: 0;
     margin: 0;
     display: flex;
@@ -695,7 +697,7 @@ input[type="radio"].visually-hidden {
 
 .filter-input:checked + label::before { 
     opacity: 0; 
-    }
+}
 
 .filter-input:checked + label::after {
     content: "";
