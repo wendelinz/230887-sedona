@@ -824,3 +824,11 @@ input[type="radio"].visually-hidden {
     bottom: 17px;
 }
 
+.footer-copyright a:hover path,
+.footer-copyright a:focus path {
+    fill: #81b3d2;
+}
+
+.footer-copyright a:active path {
+    fill: #bdbbbc;
+}
