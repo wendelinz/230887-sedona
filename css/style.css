@@ -700,3 +700,41 @@ input[type="radio"].visually-hidden {
 
     background-image: url(../img/checkbox-on.svg);
 }
+
+.arrows-wrapper {
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: 40px;
+}
+
+.arrows-wrapper .ask {
+    position: absolute;
+    top: 0;
+    left: -65px;
+    width: 11px;
+    height: 10px;
+
+    opacity: 0.3;
+}
+
+.arrows-wrapper .desc {
+    position: absolute;
+    top: 0;
+    left: -45px;
+    width: 11px;
+    height: 10px;
+    fill: #000000;
+    opacity: 0.3;
+}
+
+.arrows-wrapper a:hover,
+.arrows-wrapper a:focus {
+    opacity: 1;
+
+}
+
+.arrows-wrapper a:active path {
+    opacity: 1;
+    fill: #81b3d2;
+}
