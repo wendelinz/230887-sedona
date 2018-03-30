@@ -389,8 +389,8 @@ input[type="radio"].visually-hidden {
 }
 
 .footer-social {
-    margin: 0;
     width: 400px;
+    margin: 0;    
 }
 
 .footer-copyright {
@@ -769,4 +769,34 @@ input[type="radio"].visually-hidden {
     margin-top: 45px;
     padding-left: 12px;
     padding-right: 7px;
+}
+
+.main-footer {
+    min-height: 121px;
+}
+
+.footer-visit {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.social-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;  
+    width: 150px;
+    padding: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+}
+
+
+.social-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 47px;
+    height: 48px;
+    background-color: #81b3d2;
 }
