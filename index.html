@@ -102,23 +102,23 @@
         <form class="search-form" action="https://echo.htmlacademy.ru" method="post">
           <p class="search-item">
             <label for="search-date-from">Дата заезда:</label>
-            <input id="search-date-from" type="text" value="" placeholder="24 апреля 2017">
+            <input class="input-icon" id="search-date-from" type="text" value="" placeholder="24 апреля 2017">
           </p>
           <p class="search-item">
             <label for="search-date-until">Дата выезда:</label>
-            <input id="search-date-until" type="text" value="" placeholder="4 июля 2017">
+            <input class="input-icon" id="search-date-until" type="text" value="" placeholder="4 июля 2017">
           </p>
-          <p class="search-item">
+          <p class="search-item search-count">
             <label for="search-count-adults">Взрослые:</label>
-            <span>-</span>
+            <button class="button-minus">-</button>
             <input id="search-count-adults" type="number" name="count-adults" value="" placeholder="2">
-            <span>+</span>
+            <button class="button-plus">+</button>
           </p>
-          <p class="search-item">
+          <p class="search-item search-count">
             <label for="search-count-children">Дети:</label>
-            <span>-</span>
+            <button class="button-minus">-</button>
             <input id="search-count-children" type="number" name="count-children" value="" placeholder="0">
-            <span>+</span>
+            <button class="button-plus">+</button>
           </p>
           <button class="button button-blue button-form" type="submit">Найти</button>
         </form>
