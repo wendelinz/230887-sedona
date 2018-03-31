@@ -849,7 +849,7 @@ input[type="radio"].visually-hidden {
 
 .search-form {
     position: fixed;
-    top: 128px;
+    top: 156px;
     left: 50%; 
     margin-left: -285px;
 
@@ -880,9 +880,14 @@ input[type="radio"].visually-hidden {
     margin-left: 15px;
 }
 
-.search-form input[type="number"] {
+.search-form input {
+    border: 0px solid;
+}
+
+.search-count input {
     font: inherit;
     width: 35px;
+    height: 38px;
     text-align:center;
     padding: 0;
 }
@@ -896,16 +901,24 @@ input[type="radio"].visually-hidden {
 }
 
 .input-icon {
-    background-image: url("../img/calendar.svg");
-    background-position: 315px center;
-    background-repeat: no-repeat;
+    margin-left: -35px;
+    margin-bottom: -5px;
+    opacity: 0.3;
+}
+
+.input-icon:hover {
+    opacity: 1;
+}
+
+.input-icon:active path {
+    fill: #81b3d2;
 }
 
 .search-count {
     display: inline-block;
+    position: relative;
     margin-right: 0px;
     margin-top: 18px;
-    width: 220px;
 }
 
 .search .button-blue {
@@ -915,3 +928,65 @@ input[type="radio"].visually-hidden {
     margin-right: 33px;
     margin-top: 42px;
 }
+
+.search-item button {
+    background: none;
+    color: inherit;
+    border: none;
+    padding: 0;
+    font: inherit;
+    cursor: pointer;
+    outline: inherit;
+    width: 40px;
+    height: 38px;
+    background-color: #f2f2f2;
+}
+.search-item .button-minus {
+    background-image: url(../img/minus.png);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    margin-right: -4px;
+    margin-left: 25px;
+}
+.search-item .button-minus:active {
+    background-image: url(../img/minus-active.png);
+    background-repeat: no-repeat;
+}
+
+.search-item .button-minus:hover {
+    background-image: url(../img/minus-hover.png);
+    background-repeat: no-repeat;
+
+}
+
+.button-minus span,
+.button-plus span {
+    visibility: hidden;
+
+}
+
+.search-item .button-plus {
+    background-image: url(../img/plus.png);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    margin-left: -4px;
+}
+
+.search-item .button-plus:hover {
+    background-image: url(../img/plus-hover.png);
+    background-repeat: no-repeat;
+}
+
+.search-item .button-plus:active {
+    background-image: url(../img/plus-active.png);
+    background-repeat: no-repeat;
+}
+
+.search-count-adults .button-minus {
+    margin-left: 35px;
+}
+
+.search-count-children {
+    margin-left: 46px;
+}
+
