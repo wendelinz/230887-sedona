@@ -470,6 +470,7 @@ input[type="radio"].visually-hidden {
   
 .filter-range-title {
     margin-bottom: 9px;
+    margin-left: 4px;
   
     font-weight: 600;
     font-size: 16px;
@@ -479,7 +480,7 @@ input[type="radio"].visually-hidden {
 .price-controls {
     position: relative;
     
-    height: 36px;
+    height: 34px;
     margin-bottom: 20px;
   
     font-size: 0;
@@ -514,7 +515,14 @@ input[type="radio"].visually-hidden {
 .price-controls .min-price,
 .price-controls .max-price {
     width: 90px;
-    padding-left: 65px;
+    
+}
+.price-controls .min-price {
+    padding-left: 67px;
+}
+
+.price-controls .max-price {
+    padding-left: 57px;
 }
   
 .price-controls input {
