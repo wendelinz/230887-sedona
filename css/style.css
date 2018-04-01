@@ -892,7 +892,7 @@ input[type="radio"].visually-hidden {
     padding: 7px;
     padding-left: 14px;
     margin-left: 15px;
-    line-height: 1px;
+    line-height: 1;
     border: 2px solid #f2f2f2;
 }
 
