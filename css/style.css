@@ -889,9 +889,11 @@ input[type="radio"].visually-hidden {
     color: #000000;
     width: 345px;
     box-sizing: border-box;
-    padding: 5px;
-    padding-left: 17px;
+    padding: 7px;
+    padding-left: 14px;
     margin-left: 15px;
+    line-height: 1px;
+    border: 2px solid #f2f2f2;
 }
 
 .search-item-first input[type="text"] {
@@ -1008,4 +1010,5 @@ input[type="radio"].visually-hidden {
 .search-count-children {
     margin-left: 52px;
 }
+
 
