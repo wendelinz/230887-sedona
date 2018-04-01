@@ -687,7 +687,7 @@ input[type="radio"].visually-hidden {
 .filter-input + label::before {
     content:"";
     position: absolute;
-    left: -35px;
+    left: -37px;
     top: 0;
 
     width: 23px;
@@ -704,7 +704,7 @@ input[type="radio"].visually-hidden {
 
     position: absolute;
     top: 0px;
-    left: -35px;
+    left: -37px;
     width: 26px;
     height: 23px;
 
