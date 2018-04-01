@@ -840,15 +840,20 @@ input[type="radio"].visually-hidden {
 }
 
 .search .button-brown {
-    width: 574px;
+    width: 572px;
     min-height: 85px;
     margin-left: 314px;
     margin-right: 314px;
+    border: 0;
+}
+
+.search {
+    position: relative;
 }
 
 .search-form {
-    position: fixed;
-    top: 156px;
+    position: absolute;
+    top: 100%;
     left: 50%; 
     margin-left: -285px;
 
@@ -858,12 +863,11 @@ input[type="radio"].visually-hidden {
     padding: 0;
     padding-top: 25px;
     box-sizing: border-box;
-    border: 1px solid #000000;
     box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
 
 }
 .search-item {
-    margin-top: 30px;
+    margin-top: 32px;
     margin-left: 55px;
     margin-right: 55px;
 }
@@ -875,8 +879,12 @@ input[type="radio"].visually-hidden {
     width: 345px;
     box-sizing: border-box;
     padding: 5px;
-    padding-left: 12px;
+    padding-left: 17px;
     margin-left: 15px;
+}
+
+.search-item-first input[type="text"] {
+    margin-left: 18px;
 }
 
 .search-form input {
@@ -900,7 +908,7 @@ input[type="radio"].visually-hidden {
 }
 
 .input-icon {
-    margin-left: -35px;
+    margin-left: -30px;
     margin-bottom: -5px;
     opacity: 0.3;
 }
@@ -923,9 +931,10 @@ input[type="radio"].visually-hidden {
 .search .button-blue {
     width: 458px;
     min-height: 58px;
-    margin-left: 54px;
+    margin-left: 56px;
     margin-right: 33px;
-    margin-top: 42px;
+    margin-top: 37px;
+    border: 0;
 }
 
 .search-item button {
@@ -986,6 +995,6 @@ input[type="radio"].visually-hidden {
 }
 
 .search-count-children {
-    margin-left: 46px;
+    margin-left: 52px;
 }
 
