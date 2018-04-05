@@ -18,6 +18,8 @@ try {
   isStorageSupport = false;
 }
 
+popup.classList.remove("search-show");
+
 link.addEventListener("click", function(evt) {
   evt.preventDefault();
   popup.classList.toggle("search-show");
